@@ -4,12 +4,12 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanwtf7/hianime-api.git"
+    "url": "git+https://github.com/ryanwtf88/hianime-api.git"
   },
   "bugs": {
-    "url": "https://github.com/ryanwtf7/hianime-api/issues"
+    "url": "https://github.com/ryanwtf88/hianime-api/issues"
   },
-  "homepage": "https://github.com/ryanwtf7/hianime-api#readme",
+  "homepage": "https://github.com/ryanwtf88/hianime-api#readme",
   "scripts": {
     "dev": "bun run --hot index.ts",
     "start": "bun index.ts",
@@ -29,7 +29,8 @@
   "dependencies": {
     "@hono/node-server": "^1.8.2",
     "axios": "^1.13.6",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "hono": "^4.6.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.4",
